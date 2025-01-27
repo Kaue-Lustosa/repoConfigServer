@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 spring:
   application:
     name: api-gateway
@@ -142,5 +141,4 @@ resilience4j:
       dbServiceCircuitBreaker:
         failureRateThreshold: 50
         slidingWindowSize: 2
->>>>>>> 42ca798df100800be09023c159b3eae5991ba72d
         waitDurationInOpenState: 10s
